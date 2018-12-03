@@ -1,0 +1,32 @@
+@import "variables";
+
+// Biocard
+.bio {
+  height: 250px;
+  border-left: 10px solid $gray-400;
+}
+
+//Quote
+#quote {
+  padding-left: 2.6em;
+  background: $gray-500;
+  max-width: 80%;
+
+  h3 {
+    font-size: 16px;
+
+  }
+
+  p {
+    color: $gray-700;
+  }
+}
+
+//Footer
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: $gray-300;
+}
